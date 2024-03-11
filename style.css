@@ -52,6 +52,10 @@ font-size: 32px;
     .botoes{
         display: block;
     }
+    .ativo{
+        black ground-color:var(--botao-ativo);
+    border-bottom :4px solid var (--verde);
+    } 
     @media screen and (min-width:768px){
         .botoes{
         display: flex;
