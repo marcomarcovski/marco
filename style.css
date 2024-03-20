@@ -52,10 +52,31 @@ font-size: 32px;
     .botoes{
         display: block;
     }
-    .ativo{
-        black ground-color:var(--botao-ativo);
+    .botao.ativo{
+        back ground-color:var(--botao-ativo);
     border-bottom :4px solid var (--verde);
     } 
+    .aba-textos{
+        background-color:var(--textos-fundo);
+        padding:40px;
+        border-radius:0 0 40px 40px;
+    }
+    .aba-conteudo.ativo{
+        display:block;
+    }
+    .aba-conteudo{
+        display:none;
+    }
+    .aba-contudo-titulo-principal{
+        font-size:28px;
+        text-align:center;
+    }
+    .aba-conteudo-titulo-secudario{
+        text align: center;
+    color:var(--verde);
+    text-transform:uppercase;
+}
+        
     @media screen and (min-width:768px){
         .botoes{
         display: flex;
@@ -66,6 +87,7 @@ font-size: 32px;
                 .botao:first-child{ 
         border-radius: 40px 40px 0 0;
                 }
+                
         
             
         
