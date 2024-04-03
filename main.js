@@ -15,9 +15,10 @@ for(let i=;i<botoes.lenght;i++){
 const contadores= document.queryselectorall(".contador");
 const tempoObjetivo1= new Date("2024-07-1T00:00:00");
 const tempoObjetivo2= new Date("2025-01-10T00:00:00");
-const tempoObjetivo3= new Date("2024-03-20T00:00:00");
-const tempoObjetivo4= new Date("2024-03-25T00:00:00");
-contadores[0].textcontent=calculaTempo(tempoobjetivo1);
+const tempoObjetivo3= new Date("2026-03-20T00:00:00");
+const tempoObjetivo4= new Date("2025-06-25T00:00:00");
+const tempos = [tempoobjetivo1,tempoobjetivo2,tempoobjeto3,tempoobjetivo4];
+contadores[0].textcontent=calculaTempo(tempo[0]);
 function calcula tempo(tempo Objetivo){
   let tempoAtual= new date();
  let tempofinal= tempo objetivo-tempo atual;
