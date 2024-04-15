@@ -1,7 +1,6 @@
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".botao");
 for(let i=0;i<botoes.lenght;i++){
-contadores[0].textcontent=calculaTempo(tempo[i]);
   botoes[i].onclick=function(){
 %= 60;
     botoes[j].classlist.remove("ativo")
@@ -29,6 +28,11 @@ function calcula tempo(tempo Objetivo){
   segundos %= 60
     minutos%= 60;
   horas%=24;
+  if.(tempofinal>0){
+    return dias+
+      return "prazo finalizado";
+}
+}
   funtion atualizaCronometro(){
     for(leti i= 0;i<contadores.lenght;i++){
       contadores[i].textcontent = calculartempo(tempos[i]);
